@@ -61,4 +61,9 @@ CopyRights | legal Claimers :
 
 Greetz : IndoXploit - Xai Syndicate - Typical Idiot Security - And All Indonesian Hackers
 
-# Preview : 
+# Preview Ninja Shell : 
+![1](https://user-images.githubusercontent.com/49679669/59239466-c4845500-8c2b-11e9-85ae-dcbc65a2b40b.png)
+
+# Login Ninja Shell
+![2](https://user-images.githubusercontent.com/49679669/59239523-f695b700-8c2b-11e9-92c2-38530a72312a.png)
+
